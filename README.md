@@ -8,7 +8,7 @@
         Source :  https://ginnyfahs.medium.com/github-error-authentication-failed-from-command-line-3a545bfd0ca8 
                   https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
            
-   2/ "Internet access on your Mac break on 30th September 2021"
+   2/ dst root ca x3 expiration  ==> "Internet access on your Mac break on 30th September 2021"
     
         Solution : https://www.youtube.com/watch?v=WLG6XVZPF34
               
