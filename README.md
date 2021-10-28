@@ -1,6 +1,6 @@
 # Tips 
 
-    1/ Couldn’t push my remote repositories from the command line, the command line threw this error ==> "Authentication Failed from the Command Line"
+   1/ Couldn’t PUSH my remote repositories from the command line, the command line threw this error ==> "Authentication Failed from the Command Line"
         
         Solution : 
               Go to Settings ==> Developer Settings ==> Personal access token ==> Generate a new Personal Access Token ==> Paste the Personal Access Token into the           “Password”
