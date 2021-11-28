@@ -11,5 +11,43 @@
    2/ dst root ca x3 expiration  ==> "Internet access on your Mac break on 30th September 2021"
     
         Solution : https://www.youtube.com/watch?v=WLG6XVZPF34
-              
+        
+   3/ convertira votre projet en Maven et créera un pom.xml ==> clic droit sur le projet, sélectionnez Configurer → Convertir en projet Maven.
+   
+   4/ Error creating bean with name 'entityManagerFactory' defined in class path resource : Invocation of init method failed
+         ==> 
+                   <dependency>
+                      <groupId>org.hibernate</groupId>
+                      <artifactId>hibernate-core</artifactId>
+                      <version>4.1.4.Final</version>
+                   </dependency>
+             and
+                  <dependency>
+                      <groupId>org.hibernate</groupId>
+                      <artifactId>hibernate-entitymanager</artifactId>
+                      <version>5.2.3.Final</version>
+                  </dependency>
+             OR
+                  <dependency>
+                      <groupId>javax.xml.bind</groupId>
+                      <artifactId>jaxb-api</artifactId>
+                      <version>2.3.0</version>
+                  </dependency>
+     5/ The resource could not be loaded because the App Transport Security policy requires the use of a secure connection
+              ==> Opened my Project target's info.plist file  
+                  <key>NSAppTransportSecurity</key>
+                      <dict>
+                          <key>NSAllowsArbitraryLoads</key>
+                          <true/>
+                          <key>NSExceptionDomains</key>
+                          <dict>
+                              <key>yourdomain.com</key>
+                              <dict>
+                                  <key>NSIncludesSubdomains</key>
+                                  <true/>
+                                  <key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+                                  <false/>
+                              </dict>
+                         </dict>
+                    </dict>
         
