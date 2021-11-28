@@ -15,6 +15,7 @@
    3/ convertir votre projet en Maven et créera un pom.xml ==> clic droit sur le projet, sélectionnez Configurer → Convertir en projet Maven.
    
    4/ Error creating bean with name 'entityManagerFactory' defined in class path resource : Invocation of init method failed
+         
          ==> 
                    <dependency>
                       <groupId>org.hibernate</groupId>
@@ -33,8 +34,12 @@
                       <artifactId>jaxb-api</artifactId>
                       <version>2.3.0</version>
                   </dependency>
-     5/ The resource could not be loaded because the App Transport Security policy requires the use of a secure connection
-              ==> Opened my Project target's info.plist file  
+                  
+                  
+                  
+   5/ The resource could not be loaded because the App Transport Security policy requires the use of a secure connection
+            
+            ==> Opened my Project target's info.plist file  
                   <key>NSAppTransportSecurity</key>
                       <dict>
                           <key>NSAllowsArbitraryLoads</key>
