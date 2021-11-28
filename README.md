@@ -12,7 +12,7 @@
     
         Solution : https://www.youtube.com/watch?v=WLG6XVZPF34
         
-   3/ convertira votre projet en Maven et créera un pom.xml ==> clic droit sur le projet, sélectionnez Configurer → Convertir en projet Maven.
+   3/ convertir votre projet en Maven et créera un pom.xml ==> clic droit sur le projet, sélectionnez Configurer → Convertir en projet Maven.
    
    4/ Error creating bean with name 'entityManagerFactory' defined in class path resource : Invocation of init method failed
          ==> 
