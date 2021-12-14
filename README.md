@@ -12,7 +12,7 @@
     
         Solution : https://www.youtube.com/watch?v=WLG6XVZPF34
         
-   3/ convertir votre projet en Maven et créera un pom.xml ==> clic droit sur le projet, sélectionnez Configurer → Convertir en projet Maven.
+   3/ convertir votre projet en Maven et créer un pom.xml ==> clic droit sur le projet, sélectionnez Configurer → Convertir en projet Maven.
    
    4/ Error creating bean with name 'entityManagerFactory' defined in class path resource : Invocation of init method failed
          
@@ -56,3 +56,17 @@
                          </dict>
                     </dict>
         
+
+   6/ Comment définir ou modifier la version par défaut de Java (JDK) sous OS X
+   
+      * Pour savoir les jdk présent sur votre PC ==> /usr/libexec/java_home -V 
+      * Choisissez la version que vous souhaitez ==>  export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+         
+         Source: https://qastack.fr/programming/21964709/how-to-set-or-change-the-default-java-jdk-version-on-os-x
+               
+               
+        
+    
+    
+    
+    
